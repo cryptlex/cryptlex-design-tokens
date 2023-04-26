@@ -1,0 +1,4 @@
+# Artefacts and dependencies
+build
+coverage
+node_modules

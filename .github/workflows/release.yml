@@ -1,0 +1,38 @@
+name: Build @cryptlex/web-api-client
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      # Release Please creates a PR on main
+      - uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          release-type: node
+          package-name: '@cryptlex/web-api-client'
+
+      # Publish to NPM
+      # If statements ensure that release is published to registries only when a new release is created.
+      - uses: actions/checkout@v3
+        if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/setup-node@v3
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          node-version: 16
+          registry-url: "https://registry.npmjs.org"
+      - name: Build library
+        if: ${{ steps.release.outputs.release_created }}
+        run: | 
+          npm ci
+          npm run build
+
+      - name: NPM Publish
+        if: ${{ steps.release.outputs.release_created }}
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
