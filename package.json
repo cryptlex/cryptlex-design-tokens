@@ -1,5 +1,5 @@
 {
-  "name": "cryptlex-design-tokens",
+  "name": "@cryptlex/design-tokens",
   "version": "0.0.1",
   "description": "Design Tokens for Cryptlex",
   "repository": {

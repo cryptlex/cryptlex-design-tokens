@@ -1,4 +1,4 @@
-name: Build @cryptlex/web-api-client
+name: Build @cryptlex/design-tokens
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: '@cryptlex/web-api-client'
+          package-name: '@cryptlex/design-tokens'
 
       # Publish to NPM
       # If statements ensure that release is published to registries only when a new release is created.
