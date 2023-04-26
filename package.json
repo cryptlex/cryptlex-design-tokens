@@ -20,7 +20,7 @@
     "style-dictionary": "^3.7.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.5.1",
+    "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.4.4",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
