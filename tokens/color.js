@@ -192,79 +192,79 @@ module.exports = {
     value: "{ctx_ref_palette_primary90.value}",
   },
   "ctx_color_secondary_dark": {
-    value: "#b9c8da",
+    value: "{ctx_ref_palette_secondary10.value}",
   },
   "ctx_color_on-secondary_dark": {
-    value: "#233240",
+    value: "{ctx_ref_palette_secondary90.value}",
   },
   "ctx_color_secondary-container_dark": {
-    value: "#394857",
+    value: "{ctx_ref_palette_secondary30.value}",
   },
   "ctx_color_on-secondary-container_dark": {
-    value: "#d4e4f6",
+    value: "{ctx_ref_palette_secondary90.value}",
   },
   "ctx_color_tertiary_dark": {
-    value: "#efb0ff",
+    value: "{ctx_ref_palette_tertiary10.value}",
   },
   "ctx_color_on-tertiary_dark": {
-    value: "#4d1660",
+    value: "{ctx_ref_palette_tertiary90.value}",
   },
   "ctx_color_tertiary-container_dark": {
-    value: "#662f78",
+    value: "{ctx_ref_palette_tertiary30.value}",
   },
   "ctx_color_on-tertiary-container_dark": {
-    value: "#fad7ff",
+    value: "{ctx_ref_palette_tertiary90.value}",
   },
   "ctx_color_error_dark": {
-    value: "#ffb4ab",
+    value: "{ctx_ref_palette_error10.value}",
   },
   "ctx_color_error-container_dark": {
-    value: "#93000a",
+    value: "{ctx_ref_palette_error30.value}",
   },
   "ctx_color_on-error_dark": {
-    value: "#690005",
+    value: "{ctx_ref_palette_error90.value}",
   },
   "ctx_color_on-error-container_dark": {
-    value: "#ffdad6",
+    value: "{ctx_ref_palette_error90.value}",
   },
   "ctx_color_background_dark": {
     value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_on-background_dark": {
-    value: "#a6eeff",
+    value: "{ctx_ref_palette_neutral99.value}",
   },
   "ctx_color_surface_dark": {
     value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_on-surface_dark": {
-    value: "#a6eeff",
+    value: "{ctx_ref_palette_neutral80.value}",
   },
   "ctx_color_surface-variant_dark": {
-    value: "#42474e",
+    value: "{ctx_ref_palette_neutral60.value}",
   },
   "ctx_color_on-surface-variant_dark": {
-    value: "#c2c7cf",
+    value: "{ctx_ref_palette_neutral80.value}",
   },
   "ctx_color_outline_dark": {
-    value: "#8c9198",
+    value: "{ctx_ref_palette_neutral60.value}",
   },
   "ctx_color_inverse-on-surface_dark": {
     value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_inverse-surface_dark": {
-    value: "#a6eeff",
+    value: "{ctx_ref_palette_neutral20.value}",
   },
   "ctx_color_inverse-primary_dark": {
-    value: "#006399",
+    value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_shadow_dark": {
-    value: "#000000",
+    value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_surface-tint_dark": {
-    value: "#94ccff",
+    value: "{ctx_ref_palette_neutral20.value}",
   },
   "ctx_color_outline-variant_dark": {
-    value: "#42474e",
+    value: "{ctx_ref_palette_neutral60.value}",
   },
   "ctx_color_scrim_dark": {
     value: "{ctx_ref_palette_primary0.value}",
