@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.0.1...v1.0.2) (2023-04-28)
+
+
+### Bug Fixes
+
+* references in color- tokens ([a871008](https://github.com/cryptlex/cryptlex-design-tokens/commit/a871008cfc557688467c4b4a94212fbbc3758ba9))
+
 ## [1.0.1](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.0.0...v1.0.1) (2023-04-28)
 
 
