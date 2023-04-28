@@ -141,13 +141,13 @@ module.exports = {
     value: "#f8fdff",
   },
   "ctx_color_on-background_light": {
-    value: "#001f25",
+    value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_surface_light": {
     value: "#f8fdff",
   },
   "ctx_color_on-surface_light": {
-    value: "#001f25",
+    value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_surface-variant_light": {
     value: "#dee3eb",
@@ -228,13 +228,13 @@ module.exports = {
     value: "#ffdad6",
   },
   "ctx_color_background_dark": {
-    value: "#001f25",
+    value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_on-background_dark": {
     value: "#a6eeff",
   },
   "ctx_color_surface_dark": {
-    value: "#001f25",
+    value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_on-surface_dark": {
     value: "#a6eeff",
@@ -249,7 +249,7 @@ module.exports = {
     value: "#8c9198",
   },
   "ctx_color_inverse-on-surface_dark": {
-    value: "#001f25",
+    value: "{ctx_ref_palette_neutral10.value}",
   },
   "ctx_color_inverse-surface_dark": {
     value: "#a6eeff",
