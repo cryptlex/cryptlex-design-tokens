@@ -23,17 +23,31 @@ module.exports = {
         }
       ]
     },
-    "ts": {
+    "esm": {
       "transformGroup": "js",
-      "buildPath": "build/ts/",
+      "buildPath": "build/esm/",
       "files": [
         {
           "format": "javascript/es6",
-          "destination": "variables.js"
+          "destination": "variables-esm.js"
         },
         {
           "format": "typescript/es6-declarations",
-          "destination": "variables.d.ts"
+          "destination": "variables-esm.d.ts"
+        }
+      ]
+    },
+    "cjs": {
+      "transformGroup": "js",
+      "buildPath": "build/cjs/",
+      "files": [
+        {
+          "format": "javascript/module",
+          "destination": "variables-cjs.js"
+        },
+        {
+          "format": "typescript/module-declarations",
+          "destination": "variables-cjs.d.ts"
         }
       ]
     }
