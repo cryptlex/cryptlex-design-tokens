@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.0.2...v1.1.0) (2023-05-12)
+
+
+### Features
+
+* support CJS ([217ed86](https://github.com/cryptlex/cryptlex-design-tokens/commit/217ed86a7da0793bb228919005df84f9c7fc09fb))
+
 ## [1.0.2](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.0.1...v1.0.2) (2023-04-28)
 
 
