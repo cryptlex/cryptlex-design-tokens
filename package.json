@@ -5,8 +5,8 @@
   "repository": {
     "url": "https://github.com/cryptlex/cryptlex-design-tokens"
   },
-  "main": "build/esm/variables-esm.js",
-  "module": "build/cjs/vairables-cjs.js",
+  "module": "build/esm/variables-esm.js",
+  "main": "build/cjs/vairables-cjs.js",
   "sass": "build/scss/_variables.scss",
   "style": "build/css/variables.css",
   "scripts": {
