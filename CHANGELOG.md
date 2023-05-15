@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.1.1...v1.1.2) (2023-05-15)
+
+
+### Bug Fixes
+
+* typo in main export ([506fad5](https://github.com/cryptlex/cryptlex-design-tokens/commit/506fad51354cd30a5fba894d3c546d2cd06206de))
+
 ## [1.1.1](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.1.0...v1.1.1) (2023-05-15)
 
 
