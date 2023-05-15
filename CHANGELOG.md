@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.1.0...v1.1.1) (2023-05-15)
+
+
+### Bug Fixes
+
+* main and module declarations ([d746817](https://github.com/cryptlex/cryptlex-design-tokens/commit/d746817c4add1c7c289b564e3ba2ec2572f08b84))
+
 ## [1.1.0](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.0.2...v1.1.0) (2023-05-12)
 
 
