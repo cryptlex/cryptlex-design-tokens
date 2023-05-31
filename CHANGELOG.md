@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.1.2...v1.1.3) (2023-05-31)
+
+
+### Bug Fixes
+
+* use flat-module declarations for CJS ([46b1a4c](https://github.com/cryptlex/cryptlex-design-tokens/commit/46b1a4c563930bce8141e24d3df58e95ab2d38e9))
+
 ## [1.1.2](https://github.com/cryptlex/cryptlex-design-tokens/compare/v1.1.1...v1.1.2) (2023-05-15)
 
 
