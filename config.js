@@ -1,55 +1,55 @@
 module.exports = {
-  "source": [
-    "tokens/**/*.js"
-  ],
-  "platforms": {
-    "scss": {
-      "transformGroup": "scss",
-      "buildPath": "build/scss/",
-      "files": [
+  source: ["tokens/**/*.js"],
+  platforms: {
+    scss: {
+      transformGroup: "scss",
+      buildPath: "scss/",
+      files: [
         {
-          "destination": "_variables.scss",
-          "format": "scss/variables"
-        }
-      ]
-    },
-    "css": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
-      "files": [
-        {
-          "format": "css/variables",
-          "destination": "variables.css"
-        }
-      ]
-    },
-    "esm": {
-      "transformGroup": "js",
-      "buildPath": "build/esm/",
-      "files": [
-        {
-          "format": "javascript/es6",
-          "destination": "variables-esm.js"
+          destination: "_variables.scss",
+          format: "scss/variables",
         },
-        {
-          "format": "typescript/es6-declarations",
-          "destination": "variables-esm.d.ts"
-        }
-      ]
+      ],
     },
-    "cjs": {
-      "transformGroup": "js",
-      "buildPath": "build/cjs/",
-      "files": [
+    css: {
+      transformGroup: "css",
+      buildPath: "css/",
+      files: [
         {
-          "format": "javascript/module",
-          "destination": "variables-cjs.js"
+          format: "css/variables",
+          destination: "variables.css",
         },
+      ],
+    },
+    esm: {
+      transformGroup: "js",
+      buildPath: "esm/",
+      files: [
         {
-          "format": "typescript/module-declarations",
-          "destination": "variables-cjs.d.ts"
-        }
-      ]
-    }
-  }
-}
+          format: "javascript/es6",
+          destination: "index.js",
+        },
+      ],
+    },
+    cjs: {
+      transformGroup: "js",
+      buildPath: "cjs/",
+      files: [
+        {
+          format: "javascript/module-flat",
+          destination: "index.cjs",
+        },
+      ],
+    },
+    ts: {
+      transformGroup: "js",
+      buildPath: "./",
+      files: [
+        {
+          format: "typescript/es6-declarations",
+          destination: "index.d.ts",
+        },
+      ],
+    },
+  },
+};
