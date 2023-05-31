@@ -5,10 +5,11 @@
   "repository": {
     "url": "https://github.com/cryptlex/cryptlex-design-tokens"
   },
-  "module": "build/esm/variables-esm.js",
-  "main": "build/cjs/variables-cjs.js",
-  "sass": "build/scss/_variables.scss",
-  "style": "build/css/variables.css",
+  "module": "esm/index.js",
+  "main": "cjs/index.cjs",
+  "types": "index.d.ts",
+  "sass": "scss/_variables.scss",
+  "style": "css/variables.css",
   "scripts": {
     "build": "style-dictionary build",
     "test": "echo \"Error: no test specified\" && exit 1",
