@@ -11,7 +11,7 @@
   "sass": "scss/_variables.scss",
   "style": "css/variables.css",
   "scripts": {
-    "build": "style-dictionary build",
+    "build": "npx tsc && style-dictionary build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
@@ -23,9 +23,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.4.4",
+    "colorjs.io": "^0.4.5",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
-    "prettier": "2.8.7"
+    "prettier": "2.8.7",
+    "typescript": "^5.2.2"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

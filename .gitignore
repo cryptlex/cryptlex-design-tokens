@@ -7,3 +7,5 @@ css
 esm
 scss
 index.d.ts
+
+/tokens/**/*.js
