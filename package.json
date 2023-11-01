@@ -21,7 +21,7 @@
     "style-dictionary": "^3.7.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
+    "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^17.4.4",
     "colorjs.io": "^0.4.5",
     "husky": "^8.0.3",
